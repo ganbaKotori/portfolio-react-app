@@ -2,8 +2,13 @@ import { useState } from 'react';
 import { Education } from './Education';
 import { Experience } from './Experience';
 import { Projects } from './Projects';
+import { AboutMe } from './AboutMe';
 
 const tabsData = [
+	{
+		label: 'About Me',
+		content: <AboutMe />
+	},
 	{
 		label: 'Experience',
 		content: <Experience />
