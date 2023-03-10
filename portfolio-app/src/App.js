@@ -1,5 +1,6 @@
-import { Tabs } from './Tabs';
+import { Tabs } from './components/Tabs';
 import { Header } from './components/Header';
+import { Footer } from './components/Footer';
 
 function App() {
 	return (
