@@ -1,14 +1,12 @@
 export function Footer() {
 	return (
-		<footer className="bg-gray-800 pt-10 sm:mt-10">
-			<div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-				<div className="flex justify-center space-x-6">
-					<a href="#" className="text-gray-400 hover:text-gray-300" />
-					<a href="#" className="text-gray-400 hover:text-gray-300" />
-					<a href="#" className="text-gray-400 hover:text-gray-300" />
-				</div>
-				<p className="mt-8 text-center text-gray-400 text-sm">&copy; 2023 My Website. All rights reserved.</p>
-			</div>
+		<footer className="pt-0 sm:mt-5 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center space-x-6">
+			<button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+				<svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+					<path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+				</svg>
+				<span>Download my resume</span>
+			</button>
 		</footer>
 	);
 }

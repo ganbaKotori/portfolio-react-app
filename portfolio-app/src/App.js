@@ -7,6 +7,7 @@ function App() {
 		<div class="container mx-auto">
 			<Header />
 			<Tabs />
+			<Footer />
 		</div>
 	);
 }

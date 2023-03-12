@@ -40,8 +40,8 @@ const education = [
 
 const projects = [
 	{
-		name: 'owdb',
-		project_type: '',
+		title: 'TrackWatch',
+		subtitle: '',
 		github_link: '',
 		website_link: '',
 		description: [],
@@ -49,8 +49,6 @@ const projects = [
 		to_date: 'May 2017'
 	}
 ];
-
-const project = [];
 
 const tabsData = [
 	{
@@ -67,7 +65,7 @@ const tabsData = [
 	},
 	{
 		label: 'Projects',
-		content: <Projects project={projects}/>
+		content: <Projects projects={projects}/>
 	}
 ];
 
@@ -91,7 +89,7 @@ export function Tabs() {
 					);
 				})}
 			</div>
-			<div className="py-4">
+			<div className="pt-4">
 				<p>{tabsData[activeTabIndex].content}</p>
 			</div>
 		</>
