@@ -11,7 +11,11 @@ export function ExperienceTab(props) {
 						{exp.from_date} - {exp.to_date}
 					</h6>
 					<ul className="list-inside list-disc">
-						{exp.description.map((desc, index) => <li key={index}>{desc}</li>)}
+						{exp.description.map((desc, index) => (
+							<li className="mb-3" key={index}>
+								{desc}
+							</li>
+						))}
 					</ul>
 				</div>
 			))}

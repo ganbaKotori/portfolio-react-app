@@ -7,8 +7,15 @@ export function Projects(props) {
 				<div className="card" key={index}>
 					<h3 className="text-2xl font-bold">{pro.title}</h3>
 					<h3 className="text-1xl pb-2 font-bold">{pro.subtitle}</h3>
+					<h6 className="pb-2 font-bold">
+						{pro.from_date} - {pro.to_date}
+					</h6>
 					<ul className="list-inside list-disc">
-						{pro.description.map((desc, index) => <li key={index}>{desc}</li>)}
+						{pro.description.map((desc, index) => (
+							<li className="mb-3" key={index}>
+								{desc}
+							</li>
+						))}
 					</ul>
 				</div>
 			))}

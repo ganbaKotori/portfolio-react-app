@@ -10,10 +10,6 @@ export function EducationTab(props) {
 					<h6 className="pb-3 font-bold">
 						{edu.from_date} - {edu.to_date}
 					</h6>
-					<h6 className="font-bold">Relevant Coursework:</h6>
-					<ul className="list-inside list-disc">
-						{edu.relevant_coursework.map((course, index) => <li key={index}>{course}</li>)}
-					</ul>
 				</div>
 			))}
 		</div>
