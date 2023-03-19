@@ -7,7 +7,7 @@ import { AboutMe } from './TabItems/AboutMeTab';
 const work_experience = [
 	{
 		company: 'LinQuest',
-		position: 'Web Developer Intern',
+		position: 'Software Developer Intern',
 		description: [ `Attended daily standups and sprint meetings as a member of a development team, gaining valuable experience in Agile methodologies and principles such as Scrum and Kanban.`,
 		`Developed a Sprint Burndown Chart using a JavaScript chart-rendering library. This new chart made the team’s Kanban page more UI friendly and replaced the outdated XSLT 1.0 chart.`,
 		`Redesigned SharePoint webpart displaying urgent tasks by reverse engineering the XSLT 1.0 source code and writing a new webpart using HTML and jQuery. The result was a cleaner UI that fetched data from a new API.
@@ -17,12 +17,12 @@ const work_experience = [
 	},
 	{
 		company: 'Griley Air Freight',
-		position: 'Python developer',
+		position: 'Software Developer',
 		description: [ `Worked closely with business stakeholders to understand requirements and translate them into technical specifications for 
 		web pages and workflows. As a result, daily processes were streamlined.`,`Migrated the company's Pick Basic system to Flask and MySQL, resulting in improved performance and scalability.`,
 		`Wrote unit tests and set up a GitHub Action to run Pytest as part of the codebase's continuous integration (CI) pipeline.
    `],
-		from_date: 'April 2020',
+		from_date: 'April 2021',
 		to_date: 'Current'
 	}
 ];
