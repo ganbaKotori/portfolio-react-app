@@ -10,6 +10,12 @@
   "author": "Alexander Ramirez",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^18.15.10",
+    "dotenv": "^16.0.3",
     "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "@types/sendgrid": "^4.3.0"
   }
 }
